@@ -1,0 +1,94 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(93, 36, 201);
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+input{
+    width: 200px;
+    background-color: #7f53ac;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+    border: none;
+    box-shadow: 3px 2px 66px -19px rgba(25, 25, 26, 0.75);
+    -webkit-box-shadow: 3px 2px 66px -19px rgba(25, 25, 26, 0.75);
+    -moz-box-shadow: 3px 2px 66px -19px rgba(32, 32, 32, 0.75);
+}
+input::placeholder{
+    color:white;
+}
+input:focus{
+    outline: none;
+}
+.card{
+    display: flex;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 20%, #647dee 80%);
+    box-shadow: 3px 2px 66px -19px rgba(25, 25, 26, 0.75);
+    -webkit-box-shadow: 3px 2px 66px -19px rgba(25, 25, 26, 0.75);
+    -moz-box-shadow: 3px 2px 66px -19px rgba(32, 32, 32, 0.75);
+    max-width: 800px;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: ghostwhite;
+    border: 6px solid rgba(93, 36, 201, 55%);
+    box-shadow: 3px 2px 66px -19px rgba(20,64,214,0.75);
+    -webkit-box-shadow: 3px 2px 66px -19px rgba(20,64,214,0.75);
+    -moz-box-shadow: 3px 2px 66px -19px rgba(20,64,214,0.75);
+}
+.main-container{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.main-container h2{
+    display: flex;
+    align-items: center;
+}
+.main-container p{
+    margin-top: 0;
+
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.infos >li{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+.infos >li strong{
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
